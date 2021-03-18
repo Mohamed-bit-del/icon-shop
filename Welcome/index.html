@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <style>
+
+    body {
+      background: #F9F9F9;
+      overflow: auto;
+      font-family: 'Lora', serif;
+    }
+
+    .container {
+      max-width: 1600px;
+      margin: auto;
+    }
+
+    .perant-message { 
+      background: #FFF;
+      display: flex;
+      flex-direction: column;
+      margin-block-start: 30px;
+    }
+
+    .title__text {
+      color: #707070;
+      line-height: 27px;
+    }
+
+    .title__Address {
+      padding-inline-start: 10px;
+      text-transform: capitalize;
+    }
+
+    .title__links {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .links__email {
+      text-decoration: none;
+      color: #000;
+      padding-block: 10px;
+    }
+
+    .message-welcome__heading {margin-block-end: 0;} /* message welcome */
+
+    .message-welcome__text {margin-block-start: 8px;}
+
+    .title__button {  /* Start button */
+      text-align: center;
+      padding-block-end: 30px;
+      padding-block-start: 15px;
+    }
+
+    .button__btn {
+      border: none;
+      outline: none;
+      background: #C82127;
+      padding: 20px 100px;
+    }
+
+    .btn__link {
+      text-decoration: none;
+      color: #FFF;
+      padding-block: 10px;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+
+    .footer-bootm { /* Footer */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-inline: 30px;
+    }
+
+    .sciol {
+      display: flex;
+      list-style: none;
+      padding-inline-start: 0;
+    }
+
+    .scial-item {
+      padding-inline: 10px;
+    }
+
+    .copyRight {
+      font-size: 20px;
+      color: #777;
+      text-decoration: none;
+    }
+
+    .perant-message__icon-shop,  /* groub code */
+    .perant-message__image {
+      text-align: center;
+      padding-block-start: 50px;
+    }
+
+    .perant-message__title,
+    .perant-message__message-welcome {
+        padding-inline: 50px;
+    }
+    
+    .links__text,
+    .sciol__link {
+      color: #777777;
+    }
+
+    @media (max-width: 425px)
+    {
+      section.message div.container,
+      footer .container {max-width: 300px !important;}
+
+      .perant-message {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .title__Address {
+        text-align: center;
+        font-size: 35px;
+      }
+
+      .button__btn {padding: 20px 30px;}
+
+      .links__text,.links__email {text-align: center;}
+
+      .message-welcome__heading {text-align: center;}
+
+      .footer-bootm {flex-direction: column;}
+
+      .copyRight {font-size: 17px;}
+    }
+
+    @media (max-width: 768px)
+    {
+      .message div.container,
+      footer .container {max-width: 600px !important;}
+    }
+
+    @media (max-width: 1024px)
+    {
+      div.container {max-width: 900px !important;}
+    }
+
+    @media (max-width: 1200px)
+    {
+      .container {max-width: 1000px !important;}
+    }
+
+    @media (max-width: 1440px)
+    {
+      .container {max-width: 1300px;}
+    }
+
+  </style>
+</head>
+<body>
+  <section class="message">
+    <div class="container">
+      <div class="perant-message">
+        <div class="perant-message__icon-shop">
+          <img src="image/Group 5.png" alt="Icon">
+        </div>
+
+        <div class="perant-message__image">
+          <img src="image/Group 49.png" alt="Icon">
+        </div>
+
+        <div class="perant-message__title">
+          <h2 class="title__Address">hi bibo,</h2>
+          <p class="title__text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+          </p>
+
+          <div class="title__links">
+            <span class="links__text">live link</span>
+            <a href="#" class="links__email">https://domain.com/12345678</a>
+          </div>
+
+          <div class="title__button">
+            <button class="button__btn">
+              <a href="#" class="btn__link">
+                visit ur accouount
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="perant-message__message-welcome">
+          <h4 class="message-welcome__heading">thank you</h4>
+          <p class="message-welcome__text">
+            team icon shop
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+        <div class="footer-bootm">
+          <div class="footer-bootm__sciol">
+            <ul class="sciol">
+                <li class="scial-item">
+                    <a href="#" class="sciol__link"><img src="image/twitter.png" alt=""></a>
+                </li>
+                <li class="scial-item">
+                    <a href="#" class="sciol__link"><img src="image/facebook.png" alt=""></a>
+                </li>
+                <li class="scial-item">
+                    <a href="#" class="sciol__link"><img src="image/instagram.png" alt=""></a>
+                </li>
+                <li class="scial-item">
+                    <a href="#" class="sciol__link"><img src="image/youtube.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+          <div class="footer-bootm__copyRight">
+              <p><a href="#" class="copyRight">كل الحقوق محفوظة لمنصة ايكون شوب © 2020</a></p>
+          </div>
+        
+        </div>
+    </div>
+</footer>
+</body>
+</html>
